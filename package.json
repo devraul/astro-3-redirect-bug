@@ -1,5 +1,8 @@
 {
   "name": "astro-3-pnpm",
   "private": true,
-  "description": "repo to reproduce bug"
+  "description": "repo to reproduce bug",
+  "scripts": {
+    "dev": "pnpm -F website run dev"
+  }
 }
