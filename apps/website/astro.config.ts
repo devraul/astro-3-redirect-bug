@@ -5,7 +5,10 @@ import react from "@astrojs/react";
 
 // https://astro.build/config
 export default defineConfig({
+  redirects: {
+    "/uses": "/",
+  },
   output: "server",
   adapter: vercel(),
-  integrations: [react()]
+  integrations: [react()],
 });
